@@ -68,7 +68,7 @@ export const Header = ({ SidebarCollapsed, onToggleSidebar }) => {
         {/* Right */}
         <div className="flex items-center space-x-3">
           {/* Quick Action */}
-          <button className="hidden lg:flex items-center space-x-2 py-2 px-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl hover:shadow-lg transition-all">
+          <button className="cursor-pointer hidden lg:flex items-center space-x-2 py-2 px-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl hover:shadow-lg transition-all">
             <Plus />
             <span className="text-sm font-medium">New</span>
           </button>
