@@ -79,15 +79,15 @@ export const Header = ({ SidebarCollapsed, onToggleSidebar }) => {
             className="p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
           >
             {theme === "light" ? (
-              <Sun className="w-5 h-5" />
+              <Sun className="w-5 h-5 cursor-pointer" />
             ) : (
-              <Moon className="w-5 h-5" />
+              <Moon className="w-5 h-5 cursor-pointer" />
             )}
           </button>
 
           {/* Notification */}
           <button className="p-2.5 rounded-xl relative text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
-            <Bell className="h-5 w-5" />
+            <Bell className="h-5 w-5 cursor-pointer" />
             <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white text-xs flex items-center justify-center rounded-full">
               3
             </span>
@@ -95,7 +95,7 @@ export const Header = ({ SidebarCollapsed, onToggleSidebar }) => {
 
           {/* Setting */}
           <button className="p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
-            <Settings className="h-5 w-5" />
+            <Settings className="h-5 w-5 cursor-pointer" />
           </button>
 
           {/* User profile */}
